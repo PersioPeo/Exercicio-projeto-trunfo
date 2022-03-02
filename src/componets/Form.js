@@ -3,29 +3,21 @@ import Input from "./Input";
 
 class Form extends React.Component {
   render() {
-   /*
-    const { cardName,
-      cardDescription,
-      cardAttr1,
-      cardAttr2,
-      cardAttr3,
-      cardImage,
-      cardRare,
-      cardTrunfo,
-      hasTrunfo,
-      isSaveButtonDisabled,
-      nameFilter,
-      rareFilter,
-      trunfoFilter,
-    } = this.state;
+   
+    const { cardName } = this.props;
 
-    const { onInputChange, onSaveButtonClick, updateCardList } = this;
-*/
+    
+
     
     return (
       <>
       
-      <Input />
+      <Input 
+        textLabel = 'Nome : '
+        cardName = { cardName } 
+        nomeDoAtributo = 'name-input'
+        nomeDoHtmlFor = 'cardName'
+      />
     </>
     );
   }
