@@ -1,2 +1,2 @@
-# Exercicio-projeto-trunfo
+# exercicio-react-projeto
 Created with CodeSandbox
